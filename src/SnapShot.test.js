@@ -1,0 +1,12 @@
+import { render } from "@testing-library/react";
+import Snap from "./Snap";
+
+
+test("SnapShot Class 15",()=>{
+    const container=render(<Snap/>)
+    expect(container).toMatchSnapshot();
+})
+
+// WE USED SNAPSHOT BECAUSE WHEN WE MAKE A APPLICATION AND JUST A TIME WE HOST A LIVE THIS APPLICATION AND AT THE END POINT 
+// WE DO SOME CHANGES IN FILES LIKE SNAPSHOT FILES SI ITS THROUGH ERROR THAT YOU CHANGE THIS IF YOU DO MY MISTAKE SO CTRL Z IT
+// AND ID YOU DO FOR YOUR USESFUL OR NEEDED SO UPDATE IT JUST PRESS U 
