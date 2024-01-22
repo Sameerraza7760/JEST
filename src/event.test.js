@@ -35,7 +35,7 @@ test("test click event",()=>{
 
  afterAll(()=>{
     console.log("___after all it run only one time");
- })
+ }) 
 
  // when one test run it run and then another test run and then it run
 
